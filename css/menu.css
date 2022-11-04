@@ -245,16 +245,57 @@ footer links a{
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    .header-title {
-        width: 75%;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 4rem;
+    header h1{
+        font-size: 5rem;
+        padding: 15px;
+    }
+
+
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .socials{
+        width: 260px;
     }
 
     /* menu */
     .menu {
         background-image: none;
+        background-color: white; 
+        color:rgb(0, 4, 17);
+        
+    }
+
+    .menu-section h3{
+        text-align: center;
+        border: 6px solid rgb(0, 4, 17);
+        padding: 0 50px;
+        margin-bottom: 5px;
+        font-size: 4rem;
+        margin:0 auto;
+    }
+
+    .menu-container{
+        background-color: rgb(225, 239, 230); 
+        width:100%;
+
+    }
+
+    .menu h2{
+        background-color: rgb(225, 239, 230);
+        font-weight: bold;
+        text-decoration-line: underline;
+        text-decoration-thickness: 20px;
+        font-size: 5rem;
+    }
+
+    .menu-item {
+        display: flex;
+        justify-content: center ;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
     }
 
     /* footer section */
@@ -262,5 +303,33 @@ footer links a{
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        text-align: center;
+        
     }
+
+    
+
+    footer links a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        margin: 0 auto;
+        
+
+    }
+
+     footer div p{
+      font-size :2rem;
+
+    } 
+
+    .center{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
 }
